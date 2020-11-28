@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6852564296750527401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6852564296750527403}
+  - component: {fileID: 6852564296750527402}
+  m_Layer: 0
+  m_Name: API_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6852564296750527403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852564296750527401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.8, y: 96.3, z: 24.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6852564296750527402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852564296750527401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afdb8babe2974430a3441c6f8f203f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  API_ENDPOINT: https://api.giphy.com/v1/stickers/trending?api_key=Jn6yHj0clmAYmX78g3ddqv1MycVw8rLo&limit=25&rating=G
+  twitterEndpoint: https://api.twitter.com/1.1/trends/place.json?id=
+  id: 28869
+  img: {fileID: 0}
+  vid: {fileID: 0}
+  offsetAmount: 8
+  waitTime: 0.1
+  twitterFeedback: {fileID: 1267446448023934800, guid: 26c6ae58876f44718b70e76d4436f913,
+    type: 3}
+  tweetSpawn: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 548bb34fcc68141a0839cfe6c1f54e9d, type: 2}
+  - {fileID: 2100000, guid: a6b9caa25420e469881dd0a652e8b7cf, type: 2}
+  - {fileID: 2100000, guid: 3f6f6b06d6efc4970a432c078776664d, type: 2}
+  - {fileID: 2100000, guid: baf2ace5f738b48f1a8b50474b5f9433, type: 2}
